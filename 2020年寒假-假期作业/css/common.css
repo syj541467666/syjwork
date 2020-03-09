@@ -1,0 +1,138 @@
+*{
+	color: #555;
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	/*color: #fff;*/
+}
+body{
+    font-size: 15px;
+    background: #f1f2f6;
+        font-family: STKaiti, KaiTi_GB2312, "华文楷体", "宋体", Arial, Helvetica, sans-serif;
+}
+header{
+	background-color: #221236;
+	background: #221236 url(../images/header_bg.jpg) top center;	min-width: 1100px;
+}
+.container{
+	width: 1100px;
+	height: 120px;
+	margin: 0 auto;
+}
+.logo{
+	width: 380px;
+	height: 120px;
+	float: left;
+}
+.list{
+	width: 660px;
+	height: 120px;
+	float: right;
+	line-height: 120px;
+	text-align: center;
+}
+.ul li{
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 23px;
+	position: relative;
+	color: #fff;
+	z-index: 10;
+}
+.ul li a{
+	color: #fff;
+}
+.ul li:nth-child(2),
+.ul li:nth-child(4),
+.ul li:nth-child(5){
+	cursor: pointer;
+	background: url(../images/nav_xiajiantou.png) no-repeat right center;
+}
+.ul li:nth-child(2):hover .side,
+.ul li:nth-child(4):hover .side,
+.ul li:nth-child(5):hover .side{
+	display: block;
+}
+.ul li .side{
+	position: absolute;
+	top: 90px;
+	left: 0px;
+	width: 150px;
+	text-align: center;
+	background-color: #36264a;
+	display: none;
+}
+.ul li .side p a{
+	display: block;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 40px;
+}
+.ul li .side p:hover{
+	background-color: #3498db;
+}
+
+.clear{
+	clear: both;
+}
+
+
+
+
+footer{
+	height: 348px;
+    min-width: 1100px;
+    background: url(../images/yinyue_bg.jpg);
+}
+.music{
+    height: 67px;
+    text-align: center;
+    width: 1100px;
+    margin: 0 auto;
+}
+.music span{
+    cursor: pointer;
+    width: 57px;
+    height: 57px;
+    margin-right: 26px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.music span:nth-child(1){
+    background: url(../images/yinyue_duo.png) no-repeat;
+}
+.music span:nth-child(2){
+    background: url(../images/yinyue_lai.png) no-repeat;
+}
+.music span:nth-child(3){
+    background: url(../images/yinyue_mi.png) no-repeat;
+}
+.music span:nth-child(4){
+    background: url(../images/yinyue_fa.png) no-repeat;
+}
+.music span:nth-child(5){
+    background: url(../images/yinyue_suo.png) no-repeat;
+}
+.music span:nth-child(6){
+    background: url(../images/yinyue_la.png) no-repeat;
+}
+.music span:nth-child(7){
+    background: url(../images/yinyue_xi.png) no-repeat;
+}
+.music span:hover{
+	background-position: 0 -57px;
+}
+.line{
+	color: #fff;
+	font-weight: bold;
+	margin-top: 100px;
+}
+.music p{
+	color: #fff;
+	margin-top: 50px;
+}
+.music p:hover{
+	color:#6cf;
+}

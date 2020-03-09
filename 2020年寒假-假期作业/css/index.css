@@ -1,0 +1,720 @@
+/*广告部分*/
+.banner-wrap {
+    height: 593px;
+    position: relative;
+    min-width: 1100px;
+}
+.banner{
+	height: 593px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.banner-01 {
+   	background: url(../images/banner01_bg.jpg) no-repeat top center; 
+	display: none;
+}
+.banner-02 {
+   	background: url(../images/banner02_bg.jpg) no-repeat top center; 
+	display: none;
+}
+.banner-03 {
+   	background: url(../images/banner01_bg.jpg) no-repeat top center; 
+}
+.banner-01 .image01 {
+    position: absolute;
+    top: 204px;
+    left: 580px;
+}
+.banner-01 .image02 {
+    position: absolute;
+    top: 300px;
+    left: 595px;
+}
+.banner-01 .image03 {
+    position: absolute;
+    top: 354px;
+    left: 595px;
+}
+.banner-02 .image01 {
+    position: absolute;
+    top: 177px;
+    left: 330px;
+}
+.banner-02 .image02 {
+    position: absolute;
+    top: 70px;
+    left: 530px;
+}
+.banner-02 .image03 {
+    position: absolute;
+    top: 195px;
+    left: 540px;
+}
+.banner-03 .image01 {
+	position: absolute;
+    top: 170px;
+    left: 620px;
+}
+.banner-03 .image02 {
+	position: absolute;
+    top: 260px;
+    left: 670px;
+}
+.banner-03 .image03 {
+    position: absolute;
+    top: 300px;
+    left: 610px;
+}
+/*广告结束*/
+/*操控广告的箭头和点*/
+.change{
+	position: absolute;
+    left: 50%;
+    margin-left: -108px;
+    bottom: 40px;
+    z-index: 20;
+    height: 29px;
+    width: 216px;
+    background: url(../images/next&prev_line.png) no-repeat left center;
+}
+#prev,
+#left{
+	position: absolute;
+    top: 0;
+    height: 29px;
+    width: 29px;
+    background: url(../images/prev_jiantou.png) no-repeat;
+    cursor: pointer;
+}
+#prev:hover{
+    background: url(../images/prev_jiantou_hover.png);
+}
+#left:hover{
+    background: url(../images/prev_jiantou_hover.png);
+}
+#next,
+#right{
+	right: 0;
+	position: absolute;
+    top: 0;
+    height: 29px;
+    width: 29px;
+    cursor: pointer;
+    background: url(../images/next_jiantou.png) no-repeat;
+}
+#next:hover{
+    background: url(../images/next_jiantou_hover.png);
+}
+#right:hover{
+    background: url(../images/next_jiantou_hover.png);
+}
+#point,
+#dian{
+	text-align: center;
+	margin: 0 auto;
+    width: 55px;
+    height: 14px;
+    background: url(../images/next&prev_mbg02.png) repeat-x;    margin-top: 7px;
+}
+#point li,
+#dian li{
+	display: block;
+    float: left;
+    width: 6px;
+    height: 6px;
+    margin: 0 4px;
+    margin-top: 4px;
+    background: url(../images/next&prev_others.png);
+    cursor: pointer;
+}
+#point li.active,
+#dian li.active{
+	background: url(../images/next&prev_now.png);
+}
+
+
+
+
+/*所有模块*/
+.mokuai{
+	width: 1100px;
+	margin: 0 auto;
+}
+/*产品模块*/
+.chanpin .img{
+	text-align: center;
+	margin: 0 auto;
+	width: 50px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+.chanpin .img img{
+	display: inline-block;
+}
+.chanpin .title{
+	text-align: center;
+    font-size: 54px;
+    font-weight: normal;
+    color: #311759;
+}
+.chanpin h2{
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #311759;
+    text-align: center;
+    letter-spacing: 6px;
+}
+/*所有产品*/
+.contents{
+	position: relative;
+    height: 580px;
+}
+/*产品*/
+.content{
+	width: 1020px;
+	height: 540px;
+	display: none;
+    float: right;
+}
+.now{
+	display: block;
+}
+/*产品的左边*/
+.content-l{
+    float: left;
+    /*margin-right: 50px;*/
+}
+/*产品的右边*/
+.content-r{
+	width: 613px;
+    float: right;
+}
+.content-r h1{
+	color: #311759;
+    font-size: 30px;
+    background: url(../images/pen_line.png) no-repeat left bottom;
+    height: 60px;
+    position: relative;
+}
+.content-r h1 .pen{
+	width: 61px;
+    height: 54px;
+    background: url(../images/pen.png) no-repeat;
+    position: absolute;
+    right: 0px;
+    bottom: -1px;
+}
+.content-body .p1{
+	overflow: hidden;
+    margin: 35px 0 90px 10px;
+}
+.content-body .p1 img{
+	margin: 15px 25px 0 0;
+	float: left;
+}
+.content-body .p1 h2{
+	float: right;
+	text-align: left;
+	font-size: 24px;
+    width: 480px;
+}
+.content-body .p1 p{
+	color: #333;
+	float: right;
+	width: 480px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.content-body .p1 p span{
+	float: left;
+	font-size: 2em;
+	color: #333;
+}
+.content-body .p2 p{
+	line-height: 24px;
+	color: #333;
+}
+.tishi{
+	float: right;
+	margin-top: 20px;
+}
+.tishi div{
+	color: #333;
+	float: right;
+}
+.tishi .you{
+	float: right;
+	margin-top:15px;
+}
+.tishi .zuo{
+	float: right;
+	margin-top: -15px;
+}
+
+
+
+.change-line {
+    position: absolute;
+    left: 53%;
+    margin-left: -108px;
+    top: 232px;
+    z-index: 20;
+    height: 29px;
+    width: 610px;
+    float: right;
+    background: url(../images/next&prev_line.png) repeat-x left center;
+}
+.change-line   span {
+    position: absolute;
+    display: block;
+    top: 0;
+    height: 29px;
+    width: 29px;
+    /*background: url(../images/prev_jiantou.png) no-repeat;*/
+    cursor: pointer;
+}
+.right{
+	right: 0;
+    background: url(../images/next_jiantou.png) no-repeat;
+}
+.right:hover{
+	background-image: url(../images/next_jiantou_hover.png);
+}
+.left{
+	left: 0;
+	background: url(../images/prev_jiantou.png) no-repeat;
+}
+.left:hover{
+	background-image: url(../images/prev_jiantou_hover.png);
+}
+#dot{
+	width: 20px;
+    float: left;
+    height: 580px;
+    /*position: relative;
+    top: -90px;*/
+}
+#dot li{
+	width: 10px;
+	height: 10px;
+	margin-bottom: 75px;
+	background: url(../images/chanpin_nowline_xiaoquan.png) no-repeat 0 0;
+    border-radius: 50%;
+}
+#dot li.active{
+	background:url(../images/chanpin_nowline_daquan.png) no-repeat center center;
+}
+
+/*简介部分*/
+.jianjie_wrap{
+	background: url(../images/mokuai02_bg.jpg) no-repeat top center;
+    height: 923px;
+    min-width: 1100px;
+}
+.jianjie{
+	text-align: center;
+}
+.jianjie h1{
+	padding-top: 120px;
+	font-size: 58px;
+	text-align: center;
+    line-height: 60px;
+    color: #fff;
+}
+.jianjie h2 {
+	font-size: 20px;
+	color: #fff;
+}
+.jianjie img{
+	display: inline-block;
+	margin-top: 20px;
+}
+.jianjie_wrap .content_wrap{
+	width: 1100px;
+	margin: 0 auto;
+}
+.jianjie_wrap .content_wrap p{
+	color: #bca9d7;
+}
+.jianjie_wrap .content_wrap .tishi div{
+	color: #bca9d7;
+}
+.img-top,
+.img-three{
+	display: inline-block;
+}
+.mokuai h1,
+.mokuai h2{
+	text-align: center;
+	color: #bca9d7;
+}
+/*业务部分样式*/
+.yewu{
+	text-align: center;
+}
+.content-top{
+	height: 150px;
+	margin-bottom: 50px;
+}
+.content-top div{
+	float: left;
+	margin-top: 20px;
+}
+.num{
+	font-size: 100px;
+	color: #ccc;
+	/*margin-right: 120px;*/
+}
+.content-top div .head{
+	/*margin-right: 52px;*/
+	float: right;
+}
+.head h1{
+	margin-top: 20px;
+	margin-right: 50px;
+	font-weight: normal;
+	float: right;
+}
+.head p{
+	color: #000;
+
+}
+.close{
+	background: url(../images/business_zhankaishouqi.png) 0 67px;
+}
+.right-page{
+	width: 320px;
+    margin: 20px 60px 0 30px;
+    line-height: 24px;
+    float: left;
+}
+.right-page p{
+    color: #000;
+	text-align: left;
+}
+.close{
+	float: right;
+	height: 67px;
+    width: 67px;
+    background: url(../images/business_zhankaishouqi.png);
+    cursor: pointer;
+    margin-top: 22px;
+}
+.detail{
+	width: 790px;
+	margin: 0 auto;
+	text-align: left;
+	text-indent: 2em;
+	display: none;
+}
+.detail p{
+	margin-bottom: 20px;
+}
+.content-left{
+	width: 470px;
+}
+.content-right{
+	width: 510px;
+}
+.mokuai{
+	text-align: center;
+}
+/*团队部分样式*/
+.tuandui{
+    position: relative;
+}
+.tuandui .change{
+    bottom: -60px;
+}
+.team{
+    width: 1100px;
+    height: 250px;
+    overflow: hidden;
+    padding-top: 64px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.team-lunbo{
+    width: 2260px;
+    height: 250px;
+    position: absolute;
+}
+.team-content{
+    height: 250px;
+    /*overflow: hidden;*/
+}
+.team-info{
+    width: 533px;
+    height: 314px;
+    border: 1px solid #e0e1e5;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+.team-l{
+    position: absolute;
+    top: -65px;
+    left: 26px;
+    width: 156px;
+    height: 156px;
+    /*overflow: hidden;*/
+    cursor: pointer;
+}
+.email{
+    height: 45px;
+    width: 246px;
+    position: absolute;
+    bottom: 20px;
+    left: 220px;
+    background: #e7e8ec;
+    border: 1px solid #e0e1e5;
+    cursor: pointer;
+}
+.email:hover{
+    border: 1px solid #5f4c82;
+    transition: all 1s;
+}
+.node{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 230px;
+    margin-right: 50px;
+}
+.share{
+    width: 47px;
+    height: 190px;
+    background: #2999d6;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+}
+.share div{
+    background: url(../images/team_contact.png) no-repeat;
+    width: 47px;
+    height: 47px;
+    cursor: pointer;
+}
+.share div.vb{
+    background-position: 12px -30px;
+}
+.share div.qq{
+    background-position: 12px -75px;
+}
+.share div.github{
+    background-position: 12px -126px;
+}
+.share div.vx{
+    background-position: 12px -166px;
+}
+.share div:hover{
+    background-color: #168bcb;
+    transition: all 1s;
+}
+.email span{
+    float: left;
+    width: 45px;
+    height: 45px;
+    background: #d9d9e1 url(../images/team_contact.png) 12px 17px no-repeat;
+}
+.email p {
+    float: left;
+    text-align: center;
+    width: 200px;
+    color: #5f4c82;
+    line-height: 45px;
+
+}
+.hezuo{
+	min-width: 1100px;
+    background: #FFF;
+}
+.contentwrap{
+	color: #5f4c82;
+    overflow: hidden;
+    padding-top: 75px;
+}
+.partner{
+	float: left;
+    width: 550px;
+    border-right: 1px solid #d3d3d3;
+    margin-bottom: 120px;
+}
+.user{
+	float: left;
+    width: 474px;
+    margin-left: 75px;
+    position: relative;
+}
+.user h1,
+.user h2,
+.partner h1,
+.partner h2{
+	text-align: left;
+}
+.partner-icon,
+.user-icon{
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.partner-icon img,
+.user-icon img{
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+
+
+.lianxi{
+	height: 370px;
+}
+.input_out .input{
+	height: 45px;node
+    width: 333px;
+    background: #fff;
+    border: 1px solid #dedfe3;
+    margin-bottom: 30px;
+    float: left;
+    margin-right: 30px;
+}
+.input_out .input input{
+	float: left;
+    line-height: 45px;
+    height: 45px;
+    color: #5f4c82;
+    font-size: 16px;
+    width: 268px;
+    border: none 0;
+    padding-left: 18px;
+    outline: none;
+}
+.input_out .input .icon{
+	float: left;
+    width: 45px;
+    height: 45px;
+    background: #e7e8ec url(../images/lianxi_icons.png) 13px 14px no-repeat;
+}
+.lianxi .textarea{
+	height: 210px;
+    width: 720px;
+    margin-right: 39px;
+}
+.lianxi .input textarea{
+	float: left;
+    line-height: 27px;
+    color: #5f4c82;
+    font-size: 16px;
+    width: 640px;
+    padding-right: 17px;
+    height: 200px;
+    border: none 0;
+    text-align: left;
+    padding-left: 18px;
+    padding-top: 10px;
+    outline: none;
+    resize: none;
+}
+.dear{
+	height: 90px;
+	color: #7f7d83;
+    width: 339px;
+    float: left;
+}
+.dear2{
+	height: 70px;
+	color: #605f64;
+    font-size: 18px;
+    width: 339px;
+    float: left;
+    text-align: left;
+}
+.input_out .btn{
+	background: #168bcb;
+    border-color: #2999d6;
+    cursor: pointer;
+    width: 331px;
+    margin: 0;
+    float: right;
+}
+.input_out .btn .icon{
+    background-color: #2999d6;
+    background-position: -179px 14px;
+	
+}
+.btn span{
+	float: left;
+    line-height: 45px;
+    color: #5f4c82;
+    font-size: 16px;
+    width: 200px;
+    padding-left: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.outter{
+	width: 1100px;
+	margin: 50px auto 0;
+}
+.lianxifangshi .fangshi{
+	width: 345px;
+    height: 250px;
+    float: left;
+}
+.lianxifangshi .fangshi img{
+	float: left;
+}
+.lianxifangshi .fangshi .fangshi-detail h1{
+	line-height: 60px;
+    height: 60px;
+    width: 210px;
+    background: url(../images/lianxi_kuaier_bg.png) no-repeat bottom left;
+    color: #5f4c82;
+    margin-bottom: 14px;
+}
+.lianxifangshi .fangshi .fangshi-detail{
+	width: 210px;
+	height: 170px;
+	float: left;
+	margin-left: 30px;
+}
+
+
+
+/*固定定位*/
+#gotop{
+    width: 87px;
+    height: 161px;
+    position: fixed;
+    bottom: 160px;
+    right: 40px;
+    display: none;
+}
+.go{
+    background: url(../images/scroll_top_bg.png) no-repeat;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-left: 17px;
+    margin-bottom: 24px;
+}
+.go:hover{
+    background-position: 0 -50px;
+    transition: all 0.5s;
+}
+.contacts{
+    width: 87px;
+    height: 87px;
+    position: absolute;
+    right: 0;
+    top: 74px;
+    background: url(../images/fixed_contactus.png) top right no-repeat;
+    cursor: pointer;
+}

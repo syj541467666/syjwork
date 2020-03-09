@@ -1,0 +1,82 @@
+.contents{
+	width: 1100px;
+    margin: 0 auto;
+    min-height: 500px;
+    padding-top: 120px;
+    overflow: hidden;
+}
+.contents h1{
+    text-align: center;
+    font-size: 54px;
+    color: #311759;
+}
+.contents h2{
+    text-align: center;
+    font-size: 20px;
+    color: #311759;
+}
+.point{
+	margin: 0 auto;
+    display: block;
+    margin-top: 15px;
+}
+.contents .list{
+	width: 1100px;
+	color: #311759;
+	text-align: left;
+	float: left;
+    font-size: 30px;
+    background: url(../images/pen_line_long.png) no-repeat 0 58px;
+    height: 60px;
+    position: relative;
+    line-height: 0;
+}
+.pen{
+	width: 61px;
+    height: 58px;
+    background: url(../images/pen_list.png) no-repeat;
+    position: absolute;
+    right: 0px;
+    top: 7px;
+    cursor: pointer;
+}
+
+.content{
+	width: 505px;
+    height: 202px;
+    float: left;
+    background: #fff;
+    padding: 36px 0 0 20px;
+    margin: 0 20px 30px 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+    position: relative;
+}
+.pic{
+	float: left;
+	margin-right: 20px;
+}
+.head{
+	font-size: 24px;
+}
+.time{
+	font-size: 14px;
+	line-height: 14px;
+	margin: 10px 0;
+}
+.content-text p{
+	line-height: 24px;
+}
+.more img{
+	display: block;
+	margin: 0 auto;
+}
+.list-more{
+	height: 58px;
+    width: 58px;
+    background: url(../images/lis_more_btn_bg.png) no-repeat 0 -58px;
+    margin: 15px auto 130px;
+    cursor: pointer;
+}
+
+
